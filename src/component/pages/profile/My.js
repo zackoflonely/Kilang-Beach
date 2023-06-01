@@ -31,7 +31,7 @@ export default function My() {
               <div className="p-4 text-black" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
                 <div className="d-flex justify-content-end text-center py-1">
                   <div>
-                    <MDBCardText className="mb-1 h5">253</MDBCardText>
+                    <MDBCardText className="mb-1 h5">4</MDBCardText>
                     <MDBCardText className="small text-muted mb-0">Photos</MDBCardText>
                   </div>
                   <div className="px-3">
@@ -39,7 +39,7 @@ export default function My() {
                     <MDBCardText className="small text-muted mb-0">Followers</MDBCardText>
                   </div>
                   <div>
-                    <MDBCardText className="mb-1 h5">478</MDBCardText>
+                    <MDBCardText className="mb-1 h5">1</MDBCardText>
                     <MDBCardText className="small text-muted mb-0">Following</MDBCardText>
                   </div>
                 </div>
@@ -81,7 +81,7 @@ export default function My() {
             </MDBCard>
           </MDBCol>
         </MDBRow>
-        {/* <Contact/>     */}
+        <Contact/>    
       </MDBContainer>
     </div>
   );

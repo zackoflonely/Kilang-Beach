@@ -77,6 +77,11 @@
 .font-nav{
   font-size: 20px;
 }
+.font-title{
+  font-size: 42px;
+  font-style:oblique;
+  font-family:cursive;
+}
 .wlc{
   margin-top: 10%;
   margin-left: 25%;
@@ -86,8 +91,8 @@
 @media (max-width: 480px) {
   .wlc{
     margin-top: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
     background-Color: rgba(255, 255, 255, 0.5);
   }
   .my-navbar{
@@ -390,6 +395,9 @@ iframe{
 .img-pad2{
   padding-right: 5%;
 }
+.map-contact{
+  max-width: 400px;
+}
 @media (max-width: 480px) {
   .title-fasilitas{
     margin-top: 3.5%;
@@ -408,5 +416,11 @@ iframe{
   }
   .img-pad2{
     padding-right: 0;
+  }
+  .map-contact{
+    max-width: 100%;
+  }
+  .contact{
+    margin-top: 30px;
   }
 }

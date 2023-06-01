@@ -17,7 +17,7 @@ import Facility from './component/pages/artikel/Facility';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"  id='home'>
       <Navweb/>
       <div className='bg-App'>
         <div style={{paddingTop:'10%', minHeight:'100vh', minWidth:'95%'}}>

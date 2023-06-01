@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Row, Col, Card, Container, CardGroup, Button, Modal } from 'react-bootstrap';
 import image from '../../../img/img4.jpg';
 import artikel from '../../../img/artikel';
+import {MdRecommend} from 'react-icons/md';
 
 function Article() {
   const [selectedArticle, setSelectedArticle] = useState(null);
@@ -33,12 +34,12 @@ function Article() {
           {artikel.map((item) => (
             <Card key={item.id}>
               <Card.Body style={{ padding: '20%' }}>
-                <Card.Title>Rating</Card.Title>
+                <Card.Title><MdRecommend/>Recommended</Card.Title>
                 <Card.Img src={item.image} />
                 <Card.Text>{item.short}</Card.Text>
               </Card.Body>
               <Card.Footer>
-                <Button onClick={() => handleModalShow(item.id)}>Read More..</Button>
+                <Button onClick={() => handleModalShow(item.id)}>Route</Button>
               </Card.Footer>
             </Card>
           ))}

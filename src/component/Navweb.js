@@ -38,9 +38,9 @@ function Navweb() {
           </Link>
         </Nav.Link>
         <Nav.Link>
-        <Link to='' className='font-nav' style={{ textDecoration: 'none', color: 'inherit' }}>
+        <Linkobj to="home" activeClass="active" spy={true} smooth={true} offset={50} duration={500}>
           <GiPalmTree/>
-        </Link>
+        </Linkobj>
         </Nav.Link>
         <Nav.Link href='#artikel'>
           <Link to='fasilitas' className='font-nav' style={{ textDecoration: 'none', color: 'inherit' }}>

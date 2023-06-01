@@ -70,7 +70,6 @@ function Modals({ show, onHide, image }) {
         <Button variant="secondary" onClick={onHide}>
           Close
         </Button>
-        <Button variant="primary">Save changes</Button>
       </Modal.Footer>
     </Modal>
   );
